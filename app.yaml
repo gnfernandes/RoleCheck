@@ -1,0 +1,11 @@
+runtime: python39  # Substitua pelo número da versão se estiver usando uma versão diferente do Python
+
+# As linhas a seguir são opcionais, você pode personalizar conforme necessário
+instance_class: F1  # Define a classe da instância, F1 é a menor e mais barata
+
+# [OPCIONAL] Configurações de escalonamento automático
+automatic_scaling:
+  min_idle_instances: 0
+  max_idle_instances: automatic  # Pode ser um número específico
+  min_pending_latency: automatic  # Pode ser um tempo específico, como "30ms"
+  max_pending_latency: automatic
