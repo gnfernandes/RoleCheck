@@ -1,0 +1,5 @@
+pytelegrambotapi
+gspread
+google-auth
+google-cloud-storage
+oauth2client
