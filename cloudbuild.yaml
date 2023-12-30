@@ -3,4 +3,4 @@ steps:
   args: ['app', 'deploy']
 
 options:
-  logging: 'gs://log_telebot'  # Especifique o caminho completo para o seu bucket de logs
+  logging: CLOUD_LOGGING_ONLY  # Use esta opção para registros no Google Cloud Logging
