@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['app', 'deploy']
 options:
-  logging: { 'logsBucket': 'seu-bucket-de-logs' }
+  logging: {'logsBucket': 'seu-bucket-de-logs'}
